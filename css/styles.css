@@ -1,0 +1,40 @@
+/*************************************Tag Selectors***************************************/
+
+
+body {
+    background-color: #69a169;
+}
+hr {
+    width:7%;
+    border-width: 10px;
+    border-style: dotted none none;
+    border-color: rgb(235, 200, 111);
+    
+}
+h1 {
+    color:rgb(235, 200, 111); font-family: georgia, Arial; text-decoration-line: underline; text-decoration-thickness: 2px;
+}
+h3 {
+ color:rgb(235, 200, 111);
+}
+ 
+
+/*************************************Class Selectors***************************************/
+
+.circular{
+    border-radius: 10%;
+}
+
+/*************************************ID Selectors***************************************/
+
+#title{
+    font-family:'Papyrus', 'Arial Narrow'; color:rgb(235, 200, 111); font-size: 60;
+}
+
+/*************************************Special Selectors***************************************/
+.tdata:hover {
+        background-color: blue;
+        }
+.tdata:active{
+        background-color: yellow;
+        }
